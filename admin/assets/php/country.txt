@@ -1,0 +1,184 @@
+<!-- 
+// // https://searchcode.com/codesearch/view/97656116/
+// if(code == "ae"){region = "United Arab Emirates" }
+// else if(code == "af"){region = "Afghanistan" }
+// else if(code == "ag"){region = "Antigua and Barbuda" }
+// else if(code == "al"){region = "Albania" }
+// else if(code == "am"){region = "Armenia" }
+// else if(code == "ao"){region = "Angola" }
+// else if(code == "ar"){region = "Argentina" }
+// else if(code == "at"){region = "Austria" }
+// else if(code == "au"){region = "Australia" }
+// else if(code == "az"){region = "Azerbaijan" }
+// else if(code == "ba"){region = "Bosnia and Herzegovina" }
+// else if(code == "bb"){region = "Barbados" }
+// else if(code == "bd"){region = "Bangladesh" }
+// else if(code == "be"){region = "Belgium" }
+// else if(code == "bf"){region = "Burkina Faso" }
+// else if(code == "bg"){region = "Bulgaria" }
+// else if(code == "bi"){region = "Burundi" }
+// else if(code == "bj"){region = "Benin" }
+// else if(code == "bn"){region = "Brunei Darussalam" }
+// else if(code == "bo"){region = "Bolivia" }
+// else if(code == "br"){region = "Brazil" }
+// else if(code == "bs"){region = "Bahamas" }
+// else if(code == "bt"){region = "Bhutan" }
+// else if(code == "bw"){region = "Botswana" }
+// else if(code == "by"){region = "Belarus" }
+// else if(code == "bz"){region = "Belize" }
+// else if(code == "ca"){region = "Canada" }
+// else if(code == "cd"){region = "Congo" }
+// else if(code == "cf"){region = "Central African Republic" }
+// else if(code == "cg"){region = "Congo" }
+// else if(code == "ch"){region = "Switzerland" }
+// else if(code == "ci"){region = "Cote d'Ivoire" }
+// else if(code == "cl"){region = "Chile" }
+// else if(code == "cm"){region = "Cameroon" }
+// else if(code == "cn"){region = "China" }
+// else if(code == "co"){region = "Colombia" }
+// else if(code == "cr"){region = "Costa Rica" }
+// else if(code == "cu"){region = "Cuba" }
+// else if(code == "cv"){region = "Cape Verde" }
+// else if(code == "cy"){region = "Cyprus" }
+// else if(code == "cz"){region = "Czech Republic" }
+// else if(code == "de"){region = "Germany" }
+// else if(code == "dj"){region = "Djibouti" }
+// else if(code == "dk"){region = "Denmark" }
+// else if(code == "dm"){region = "Dominica" }
+// else if(code == "do"){region = "Dominican Republic" }
+// else if(code == "dz"){region = "Algeria" }
+// else if(code == "ec"){region = "Ecuador" }
+// else if(code == "ee"){region = "Estonia" }
+// else if(code == "eg"){region = "Egypt" }
+// else if(code == "er"){region = "Eritrea" }
+// else if(code == "es"){region = "Spain" }
+// else if(code == "et"){region = "Ethiopia" }
+// else if(code == "fi"){region = "Finland" }
+// else if(code == "fj"){region = "Fiji" }
+// else if(code == "fk"){region = "Falkland Islands" }
+// else if(code == "fr"){region = "France" }
+// else if(code == "ga"){region = "Gabon" }
+// else if(code == "gb"){region = "United Kingdom" }
+// else if(code == "gd"){region = "Grenada" }
+// else if(code == "ge"){region = "Georgia" }
+// else if(code == "gf"){region = "French Guiana" }
+// else if(code == "gh"){region = "Ghana" }
+// else if(code == "gl"){region = "Greenland" }
+// else if(code == "gm"){region = "Gambia" }
+// else if(code == "gn"){region = "Guinea" }
+// else if(code == "gq"){region = "Equatorial Guinea" }
+// else if(code == "gr"){region = "Greece" }
+// else if(code == "gt"){region = "Guatemala" }
+// else if(code == "gw"){region = "Guinea-Bissau" }
+// else if(code == "gy"){region = "Guyana" }
+// else if(code == "hn"){region = "Honduras" }
+// else if(code == "hr"){region = "Croatia" }
+// else if(code == "ht"){region = "Haiti" }
+// else if(code == "hu"){region = "Hungary" }
+// else if(code == "id"){region = "Indonesia" }
+// else if(code == "ie"){region = "Ireland" }
+// else if(code == "il"){region = "Israel" }
+// else if(code == "in"){region = "India" }
+// else if(code == "iq"){region = "Iraq" }
+// else if(code == "ir"){region = "Iran" }
+// else if(code == "is"){region = "Iceland" }
+// else if(code == "it"){region = "Italy" }
+// else if(code == "jm"){region = "Jamaica" }
+// else if(code == "jo"){region = "Jordan" }
+// else if(code == "jp"){region = "Japan" }
+// else if(code == "ke"){region = "Kenya" }
+// else if(code == "kg"){region = "Kyrgyz Republic" }
+// else if(code == "kh"){region = "Cambodia" }
+// else if(code == "km"){region = "Comoros" }
+// else if(code == "kn"){region = "Saint Kitts and Nevis" }
+// else if(code == "kp"){region = "North Korea" }
+// else if(code == "kr"){region = "South Korea" }
+// else if(code == "kw"){region = "Kuwait" }
+// else if(code == "kz"){region = "Kazakhstan" }
+// else if(code == "la"){region = "Lao People's Democratic Republic" }
+// else if(code == "lb"){region = "Lebanon" }
+// else if(code == "lc"){region = "Saint Lucia" }
+// else if(code == "lk"){region = "Sri Lanka" }
+// else if(code == "lr"){region = "Liberia" }
+// else if(code == "ls"){region = "Lesotho" }
+// else if(code == "lt"){region = "Lithuania" }
+// else if(code == "lv"){region = "Latvia" }
+// else if(code == "ly"){region = "Libya" }
+// else if(code == "ma"){region = "Morocco" }
+// else if(code == "md"){region = "Moldova" }
+// else if(code == "mg"){region = "Madagascar" }
+// else if(code == "mk"){region = "Macedonia" }
+// else if(code == "ml"){region = "Mali" }
+// else if(code == "mm"){region = "Myanmar" }
+// else if(code == "mn"){region = "Mongolia" }
+// else if(code == "mr"){region = "Mauritania" }
+// else if(code == "mt"){region = "Malta" }
+// else if(code == "mu"){region = "Mauritius" }
+// else if(code == "mv"){region = "Maldives" }
+// else if(code == "mw"){region = "Malawi" }
+// else if(code == "mx"){region = "Mexico" }
+// else if(code == "my"){region = "Malaysia" }
+// else if(code == "mz"){region = "Mozambique" }
+// else if(code == "na"){region = "Namibia" }
+// else if(code == "nc"){region = "New Caledonia" }
+// else if(code == "ne"){region = "Niger" }
+// else if(code == "ng"){region = "Nigeria" }
+// else if(code == "ni"){region = "Nicaragua" }
+// else if(code == "nl"){region = "Netherlands" }
+// else if(code == "no"){region = "Norway" }
+// else if(code == "np"){region = "Nepal" }
+// else if(code == "nz"){region = "New Zealand" }
+// else if(code == "om"){region = "Oman" }
+// else if(code == "pa"){region = "Panama" }
+// else if(code == "pe"){region = "Peru" }
+// else if(code == "pf"){region = "French Polynesia" }
+// else if(code == "pg"){region = "Papua New Guinea" }
+// else if(code == "ph"){region = "Philippines" }
+// else if(code == "pk"){region = "Pakistan" }
+// else if(code == "pl"){region = "Poland" }
+// else if(code == "pt"){region = "Portugal" }
+// else if(code == "py"){region = "Paraguay" }
+// else if(code == "qa"){region = "Qatar" }
+// else if(code == "re"){region = "Reunion" }
+// else if(code == "ro"){region = "Romania" }
+// else if(code == "rs"){region = "Serbia" }
+// else if(code == "ru"){region = "Russian Federationß" }
+// else if(code == "rw"){region = "Rwanda" }
+// else if(code == "sa"){region = "Saudi Arabia" }
+// else if(code == "sb"){region = "Solomon Islands" }
+// else if(code == "sc"){region = "Seychelles" }
+// else if(code == "sd"){region = "Sudan" }
+// else if(code == "se"){region = "Sweden" }
+// else if(code == "si"){region = "Slovenia" }
+// else if(code == "sk"){region = "Slovakia" }
+// else if(code == "sl"){region = "Sierra Leone" }
+// else if(code == "sn"){region = "Senegal" }
+// else if(code == "so"){region = "Somalia" }
+// else if(code == "sr"){region = "Suriname" }
+// else if(code == "st"){region = "Sao Tome and Principe" }
+// else if(code == "sv"){region = "El Salvador" }
+// else if(code == "sy"){region = "Syrian Arab Republic" }
+// else if(code == "sz"){region = "Swaziland" }
+// else if(code == "td"){region = "Chad" }
+// else if(code == "tg"){region = "Togo" }
+// else if(code == "th"){region = "Thailand" }
+// else if(code == "tj"){region = "Tajikistan" }
+// else if(code == "tl"){region = "Timor-Leste" }
+// else if(code == "tm"){region = "Turkmenistan" }
+// else if(code == "tn"){region = "Tunisia" }
+// else if(code == "tr"){region = "Turkey" }
+// else if(code == "tt"){region = "Trinidad and Tobago" }
+// else if(code == "tw"){region = "Taiwan" }
+// else if(code == "tz"){region = "Tanzania" }
+// else if(code == "ua"){region = "Ukraine" }
+// else if(code == "ug"){region = "Uganda" }
+// else if(code == "us"){region = "United States of America" }
+// else if(code == "uy"){region = "Uruguay" }
+// else if(code == "uz"){region = "Uzbekistan" }
+// else if(code == "ve"){region = "Venezuela" }
+// else if(code == "vn"){region = "Vietnam" }
+// else if(code == "vu"){region = "Vanuatu" }
+// else if(code == "ye"){region = "Yemen" }
+// else if(code == "za"){region = "South Africa" }
+// else if(code == "zm"){region = "Zambia" }
+// else if(code == "zw"){region = "Zimbabwe" } -->
